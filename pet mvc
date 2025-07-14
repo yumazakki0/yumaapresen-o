@@ -1,0 +1,15 @@
+pet_assistente_mvc/
+│
+├── main.py               ← Ponto de entrada
+├── controller.py         ← Controller (liga a View ao Model)
+├── model.py              ← Model (banco, lógica de lembrete)
+├── view.py               ← View (Tkinter GUI)
+├── utils/
+│   ├── chatbot.py        ← Chat com IA21 (componente separado)
+│   ├── sound.py          ← Reproduzir som
+│   └── helpers.py        ← Funções auxiliares (interpretação, tempo, etc.)
+├── assets/
+│   ├── alerta.wav
+│   └── mascote.gif
+├── .env                  ← API key
+└── pet_assistente.db     ← Banco de dados
